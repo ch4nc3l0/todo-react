@@ -1,0 +1,19 @@
+*{
+  margin: 0
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #151617;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
+@import './Titlebar.scss';
+@import './Todolist.scss';
+@import './TodoItem.scss';
+@import './AddTodo.scss';

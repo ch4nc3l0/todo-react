@@ -1,0 +1,17 @@
+.addtodo{
+
+}
+
+.centerwrapper{
+display: flex;
+justify-content: center;
+    .addtodo--button{
+        background-color: red;
+        border:none;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 6rem;
+        padding: 4rem;
+        text-align: center;
+    }
+}

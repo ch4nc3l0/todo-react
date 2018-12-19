@@ -1,0 +1,30 @@
+{
+  "name": "todo-react",
+  "version": "1.0.0",
+  "description": "todo-app",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.6.2",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ch4nc3l0/todo-react.git"
+  },
+  "keywords": [
+    "todo",
+    "react",
+    "scss"
+  ],
+  "author": "chance gurley",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ch4nc3l0/todo-react/issues"
+  },
+  "homepage": "https://github.com/ch4nc3l0/todo-react#readme"
+}
