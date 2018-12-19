@@ -10,7 +10,7 @@ constructor(props){
     mapTodo() {
         if(this.props.todo.length===0){
             return(
-                <div>
+                <div  className='todoitem'>
                     <p>Add Something Todo!</p>
                 </div>
                 );
