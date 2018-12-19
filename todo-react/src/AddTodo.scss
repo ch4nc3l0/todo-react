@@ -1,14 +1,31 @@
 .addtodo{
-display: flex;
-justify-content: center;
+    bottom: 0;
+    right:0;
+    position: fixed;
+    
+ 
 }
 
 .addtodo--button{
-    background-color: red;
-    border:none;
-    border-radius: 50%;
+    background: none;
+    border: none;
+    background-image: url('./SvgPlus.svg');
+    background-size: contain;
     cursor: pointer;
-    font-size: 6rem;
-    padding: 4rem;
-    text-align: center;
+    width: 6rem;
+    height: 6rem;
+}
+
+
+
+.addtodo--input{
+    flex: 1;
+}
+
+.addtodo--wrapper{
+
+    border: 3px dashed white;
+    display: flex;
+    padding: .5rem;
+    
 }
