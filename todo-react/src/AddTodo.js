@@ -4,8 +4,8 @@ export default class AddTodo extends Component{
 
     render(){
         return(
-            <div className='centerwrapper'>
-            <button>+</button>
+            <div className='addtodo'>
+            <button className='addtodo--button'>+</button>
             </div>
         );
     };
