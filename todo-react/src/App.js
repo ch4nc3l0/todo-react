@@ -19,13 +19,13 @@ class App extends Component {
      if(todo!==''){
      this.setState(prevState=>({todo:[...prevState.todo, todo]}));
      }
-    }
+    };
   
   render() {
     return (
       <div className="App">
         <Titlebar title='Reactive Todo'/>
-        <TodoList/>
+        <TodoList todo={this.state.todo}/>
         <Addtodo handleAddTodo={this.handleAddTodo}/>
       </div>
     );
